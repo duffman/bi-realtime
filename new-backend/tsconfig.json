@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"lib": ["es6", "dom"],
+		"types": ["node"],
+		"module": "commonjs",
+		"target": "ESNEXT",
+		"downlevelIteration": true,
+		"noImplicitAny": false,
+		"sourceMap": false,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"outDir": "./dist",
+		"rootDirs": [
+			"src"
+		],
+		"baseUrl": "./",
+		"paths": {
+			"@app/*"        : ["./app/*"]
+		}
+	},
+	"exclude": [
+		"node_modules",
+		"server-panel",
+		"trashcan",
+		"test",
+		"./src/modules",
+		"dist"
+	]
+}

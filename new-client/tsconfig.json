@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "lib": ["es6", "dom" ],
+        "types": ["node"],
+        "module": "commonjs",
+        "target": "ESNEXT",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "paths": {
+          "@Core/*": ["./Igniter.Core/*"],
+          "@Server/*": ["./Igniter.Server/*"],
+          "@Web/*": ["./Igniter.Web/*"],
+          "@Tools/*": ["./Igniter.Tools/*"]
+        }
+    },
+    "exclude": [
+      "node_modules",
+      "node_modules_tmp"
+    ]
+}
